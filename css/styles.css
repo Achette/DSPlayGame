@@ -72,12 +72,11 @@ header {
 /* MAIN */
 
 main {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .notices-container {
-  /* width: 1200px; */
   height: 831px;
   background-color: #fff;
   margin-top: 3px;
@@ -107,7 +106,7 @@ main {
   margin-top: 40px;
   background-color: #f0f0f0;
   border-radius: 8px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
   padding: 15px 40px;
 }
 
@@ -146,6 +145,7 @@ main {
   font-size: 14px;
   line-height: 21px;
   color: #dd7e92;
+  margin-top: 7px;
 }
 
 .btn {
@@ -162,7 +162,85 @@ main {
 }
 
 .games-container {
-    width: 100%;
-    height: 559px;
-    background-color: #F0F0F0;
+  width: 1200px;
+  height: 559px;
+  background-color: #f0f0f0;
+}
+
+.games-content-container {
+  width: 1200px;
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.games-content-container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #38af90;
+  padding: 36px 0 73px 0;
+}
+
+.game-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-game {
+  width: 300px;
+  height: 326px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.card-img,
+.card-img img {
+  height: 168.54px;
+  width: 300px;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-game-info {
+  height: 157.46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 27px 0 15px 0;
+}
+
+.game-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #797979;
+}
+
+.game-title h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.game-title h6 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.game-title h6 strong {
+  color: #38af90;
+  font-size: 14px;
+}
+
+.rating {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #38af90;
 }
