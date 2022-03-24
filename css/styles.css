@@ -389,7 +389,7 @@ main {
 
 .footer-content {
   width: 100%;
-  padding: 84px 105px;
+  padding: 0 105px;
   display: flex;
   justify-content: space-between;
 }
