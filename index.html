@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./css/styles.css" />
-  
+
     <title>DSPlayGames</title>
   </head>
   <body>
@@ -19,14 +19,15 @@
             <li><a href="#notices">Notícias</a></li>
             <li><a href="#games">Jogos</a></li>
             <li><a href="#subscription">Inscreva-se</a></li>
-            <li><img src="./img/user.png" alt="User avatar" /></li>
+            <li></li>
           </ul>
+          <img src="./img/user.png" alt="User avatar" />
         </div>
       </nav>
     </header>
 
     <main>
-      <div id="notices" class="notices-container">
+      <section id="notices" class="notices-container">
         <div class="notices-content-container">
           <h2>Últimas notícias</h2>
           <div class="notices-content">
@@ -95,7 +96,7 @@
 
           <button class="btn">Carregar mais</button>
         </div>
-      </div>
+      </section>
 
       <div id="games" class="games-container">
         <div class="games-content-container">
@@ -155,13 +156,20 @@
         <div class="subscription-content-container">
           <div class="subscription-form-content">
             <form class="form-container">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Nome completo"
-              />
-              <input type="email" id="email" name="email" placeholder="Email" />
+              <div class="form-inputs">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nome completo"
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
 
               <div class="subscription-form-plataform">
                 <label for="plataform" id="plataform"
@@ -191,13 +199,13 @@
                     />
                     <label for="Playstation">Playstation</label>
                   </div>
-                </div>
-              </div>
 
-              <div class="news-field-container">
-                <div class="news-field">
-                  <input type="checkbox" id="register" name="register" />
-                  <label for="register">Deseja receber novidades.</label>
+                  <div class="news-field-container">
+                    <div class="news-field">
+                      <input type="checkbox" id="register" name="register" />
+                      <label for="register">Deseja receber novidades.</label>
+                    </div>
+                  </div>
                 </div>
               </div>
 
