@@ -1,0 +1,148 @@
+@media (min-width: 768px) {
+    .nav-menu-content ul {
+      display: flex;
+    }
+  
+    .nav-menu-content ul li {
+      margin-right: 15px;
+    }
+  
+    .nav-menu-content ul li a {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .nav-container h1 {
+      font-size: 24px;
+    }
+  
+    .notices-content-container h2 {
+      font-size: 30px;
+    }
+  
+    .card-notice h3 {
+      font-size: 20px;
+    }
+  
+    .card-notice h4 {
+      font-size: 14px;
+    }
+  
+    .games-content-container h2 {
+      font-size: 30px;
+    }
+  
+    .subscription-container h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  
+    .form-container {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .form-buttons button {
+        margin: 0;
+      }
+      .form-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 52px;
+      }
+  }
+  
+  @media (min-width: 992px) {
+    .notices-content {
+      width: 990px;
+    }
+  
+    .games-content-container h2 {
+      margin-bottom: 55px;
+    }
+    .game-card-container {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+    .subscription-content-container {
+      width: 790px;
+      margin: 0 auto;
+      margin-bottom: 60px;
+    }
+  
+   /*  .form-buttons button {
+      margin: 0;
+    }
+    .form-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 52px;
+    } */
+  
+    .footer-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 190px;
+    }
+  
+    .footer-content {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 50px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    .header-container {
+      padding: 0 105px;
+    }
+  
+    .notices-content-container h2 {
+      font-size: 36px;
+      padding: 40px;
+    }
+  
+    .nav-menu-content ul li {
+      margin-right: 30px;
+    }
+  
+    .games-container {
+      height: 559px;
+    }
+  
+    .notices-content {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .card-notice h3 {
+      font-size: 24px;
+    }
+  
+    .card-notice h4 {
+      font-size: 16px;
+    }
+  
+    .btn {
+      margin-bottom: 65px;
+    }
+  
+    .subscription-container h2 {
+      padding: 40px;
+    }
+   
+    .footer-content {
+      padding: 0 105px;
+    }
+  }
