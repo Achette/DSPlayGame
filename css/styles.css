@@ -447,6 +447,10 @@ html {
 }
 
 @media (min-width: 992px) {
+  .notices-content {
+    width: 990px;
+  }
+
   .games-content-container h2 {
     margin-bottom: 55px;
   }
@@ -500,10 +504,6 @@ html {
     margin-bottom: 40px;
   }
 
-  .notices-content {
-    width: 990px;
-  }
-
   .card-notice h3 {
     font-size: 24px;
   }
@@ -519,22 +519,6 @@ html {
   .subscription-container h2 {
     padding: 40px;
   }
-
-/*   .subscription-content-container {
-    width: 790px;
-    margin: 0 auto;
-    margin-bottom: 60px;
-  } */
-
- /*  .form-buttons button {
-    margin: 0;
-  }
-  .form-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 52px;
-  } */
 
   .footer-container {
     width: 100%;
