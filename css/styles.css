@@ -455,6 +455,22 @@ html {
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  .subscription-content-container {
+    width: 790px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .form-buttons button {
+    margin: 0;
+  }
+  .form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 52px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -504,13 +520,13 @@ html {
     padding: 40px;
   }
 
-  .subscription-content-container {
+/*   .subscription-content-container {
     width: 790px;
     margin: 0 auto;
     margin-bottom: 60px;
-  }
+  } */
 
-  .form-buttons button {
+ /*  .form-buttons button {
     margin: 0;
   }
   .form-buttons {
@@ -518,7 +534,7 @@ html {
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 52px;
-  }
+  } */
 
   .footer-container {
     width: 100%;
